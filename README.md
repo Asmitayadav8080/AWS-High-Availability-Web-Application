@@ -20,7 +20,9 @@ The architecture was also tested through controlled failure scenarios instead of
 
 ## Architecture
 
-![AWS High Availability Architecture](Architecture/aws-ha-architecture.png)
+![AWS High Availability Architecture](Architecture/aws-ha-architecture.pn)
+<img width="850" height="1100" alt="aws-ha-architecture" src="https://github.com/user-attachments/assets/87d65129-2490-4cde-a399-c45b8f0d5bb1" />
+
 
 The architecture spans two Availability Zones in the AWS eu-north-1 region. The Application Load Balancer is internet-facing across public subnets, while the EC2 application tier and RDS database tier remain in private subnets.
 
